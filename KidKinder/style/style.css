@@ -1,0 +1,160 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:wght@400;700&display=swap");
+
+/* 
+font-family: 'Handlee', cursive;
+font-family: 'Nunito', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #00394f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Handlee", cursive;
+}
+
+.navbar {
+  width: 100%;
+  box-shadow: 0px 10px 15px 0px black;
+  overflow: auto;
+}
+.nav-logo,
+.nav-links,
+.nav-button {
+  float: left;
+  text-align: center;
+}
+
+.nav-logo {
+  width: 30%;
+}
+.nav-logo-img {
+  width: 6%;
+}
+.nav-logo-text {
+  font-family: "Nunito", sans-serif;
+  color: #17a2b8;
+  font-size: 50px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.nav-links {
+  width: 55%;
+  display: inline;
+  margin: 0 10px;
+}
+.nav-links a {
+  padding: 0px 11px;
+  margin: 15px 0;
+}
+.nav-links ul {
+  margin: 20px 0;
+}
+.nav-button {
+  width: 10%;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+button {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 0;
+}
+
+/* MAIN */
+.main {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  padding: 5% 5%;
+  background-color: #17a2b8;
+  color: white;
+}
+
+.left,
+.right {
+  width: 44%;
+  float: left;
+  margin: 0 10px;
+}
+
+.left h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 100px;
+}
+.left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.left p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 24px;
+}
+.left button {
+  background-color: #00394f;
+  color: white;
+  border-radius: 20px;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.right img {
+  width: 95%;
+  margin-left: 55px;
+}
+
+.featured {
+  width: 100%;
+  overflow: auto;
+  margin: 5% 10%;
+}
+
+.featured-item {
+  width: 25%;
+  height: 200px;
+  margin: 10px 10px;
+  padding: 15px 15px;
+  background-color: #f8f9fa;
+  color: #00394f;
+  display: inline-block;
+}
+
+.feat-img {
+  font-size: 20px;
+  padding: 10px 0 0 0px;
+}
+
+.feat-des {
+  padding-left: 25px;
+  color: #2f2120;
+}

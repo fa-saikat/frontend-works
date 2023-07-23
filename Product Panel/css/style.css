@@ -1,0 +1,150 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #e9ecef;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-panel {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 3px solid #ced4da;
+
+  width: 45vw;
+  height: 40vh;
+
+  padding: 5px 5px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.img-section {
+  box-sizing: border-box;
+  width: 35%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+  border: 15px 0 0 15px solid black;
+}
+
+.product-info {
+  width: 65%;
+}
+
+.product-name-price {
+  padding: 10px 10px;
+  margin: 10px 0;
+
+  border-bottom: 1px solid #ced4da;
+
+  display: flex;
+  justify-content: space-between;
+}
+.product-name {
+  color: #343a40;
+  font-size: 24px;
+  font-weight: 700;
+}
+.product-price {
+  color: #52b788;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.product-availability {
+  color: #343a40;
+  padding: 10px 10px;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.product-size {
+  margin: 0 15px;
+  border-bottom: 1px solid #ced4da;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.tips {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.size {
+  width: 30px;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+
+  padding: 10px 10px;
+  /* margin: 0 0px; */
+  align-items: center;
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 300ms;
+}
+
+.size:hover {
+  background-color: #343a40;
+  color: #ced4da;
+  font-weight: 700;
+}
+
+.user-choice {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+
+.choice {
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: black;
+  background-color: #ced4da;
+  border-radius: 12px;
+  padding: 10px 0px;
+  /* margin: 25px 10px; */
+
+  align-items: center;
+
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  transition: 200ms;
+}
+
+.choice:hover {
+  background-color: #343a40;
+  color: #ced4da;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px 10px;
+  color: #6c757d;
+}
